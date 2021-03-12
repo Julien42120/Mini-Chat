@@ -1,0 +1,165 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/wp7312547.jpg);
+    background-size: cover;
+}
+
+.container-fluid{
+    background-color: rgba(34, 34, 34, 0.5);
+    color: white;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+#deco{
+    color: red;
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(223, 223, 223);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* PAGE CHAT */
+
+.containerMSG{
+    background-color: rgba(44, 44, 44, 0.5);
+    margin-left: 7%;
+    margin-right: 7% ;
+    max-height: 700px;
+    border-radius: 10%;
+    
+}
+
+/* PARTIE MESSAGES ET UTILISATEURS */
+
+
+.containerMessage{
+    color: white;
+    overflow-y: auto;
+    max-height: 350px ;
+}
+
+.containerUsers{
+    color:rgb(122, 122, 122);
+    font-weight: bold;
+    overflow-y: auto;
+    max-height: 350px ;
+
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#b60707 , #3f02ce);
+    border-radius: 10px;
+}
+
+h2{
+    color:rgb(184, 184, 184);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 35%;
+    font-weight: bold;
+}
+h3{
+    color:rgb(184, 184, 184);
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* TEXT AREA -- BOUTON */
+
+.row_Mess{
+    background-color:rgba(36, 36, 36, 0.5);
+    border-radius: 10px;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 7%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pseudoCo{
+    margin-left: 10px;
+    margin-top: 25px;
+    color: rgb(12, 143, 41);
+    font-weight: bold;
+    text-align: center;
+    width:min-content;
+}
+
+textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    margin-left: 15px;
+    width:700px;
+}
+
+/* ENVOIE FICHIER */
+
+.write {
+    color:rgb(12, 143, 41);
+    font-weight: bold;
+    margin-left: 7% ;
+}
+
+.boutonEnvoi{
+    position: inherit;
+    margin-top: 11px;
+    margin-left: 15px;
+    width: 50px;
+}
+
+
+/* PARTIE INSCRIPTION */
+
+.containerInscri{
+    margin-top: 3%;
+    margin-left: 37%;
+    background-color: rgba(44, 44, 44, 0.5);
+    width: 25%;
+    height: 35%;
+    border-radius: 20%;
+}
+
+form {
+    margin-top: 5%;
+    text-align: center;
+}
+
+form label{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* PARTIE CONNEXION */
+
+.containerlogin{
+    margin-top: 10%;
+    margin-left: 37%;
+    background-color: rgba(44, 44, 44, 0.5);
+    width: 25%;
+    height: 35%;
+    border-radius: 20%;
+}
+
+ /* FOOTER */
+
+.footer{
+    background-color:rgba(47, 47, 47, 0.5);
+    height: 60px;
+    margin-top: 20px;
+}
+h5{
+    text-align: center;
+    color: white;
+}
